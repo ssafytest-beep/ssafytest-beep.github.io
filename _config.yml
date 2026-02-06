@@ -1,0 +1,143 @@
+theme: jekyll-theme-chirpy
+lang: en
+timezone: Asia/Seoul
+title: 사이드 프로젝트
+tagline: My Awesome Tech Blog
+description: ''
+url: https://ssafytest-beep.github.io
+github:
+  username: ssafytest-beep
+social:
+  name: ssafytest
+  email: null
+  links:
+  - https://github.com/ssafytest-beep
+webmaster_verifications:
+  google: null
+  bing: null
+  alexa: null
+  yandex: null
+  baidu: null
+  facebook: null
+analytics:
+  google:
+    id: null
+  goatcounter:
+    id: null
+  umami:
+    id: null
+    domain: null
+  matomo:
+    id: null
+    domain: null
+  cloudflare:
+    id: null
+  fathom:
+    id: null
+pageviews:
+  provider: null
+theme_mode: null
+avatar: /assets/img/avatar.png
+social_preview_image: null
+toc: true
+comments:
+  provider: null
+  disqus:
+    shortname: null
+  utterances:
+    repo: null
+    issue_term: null
+  giscus:
+    repo: null
+    repo_id: null
+    category: null
+    category_id: null
+    mapping: null
+    strict: null
+    input_position: null
+    lang: null
+    reactions_enabled: null
+assets:
+  self_host:
+    enabled: null
+    env: null
+pwa:
+  enabled: false
+  cache:
+    enabled: false
+    deny_paths: null
+paginate: 10
+baseurl: ''
+kramdown:
+  footnote_backlink: '&#8617;&#xfe0e;'
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+collections:
+  tabs:
+    output: true
+    sort_by: order
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    comments: true
+    toc: true
+    permalink: /posts/:title/
+- scope:
+    path: _drafts
+  values:
+    comments: false
+- scope:
+    path: ''
+    type: tabs
+  values:
+    layout: page
+    permalink: /:title/
+sass:
+  style: compressed
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs:
+    - development
+exclude:
+- '*.gem'
+- '*.gemspec'
+- docs
+- tools
+- README.md
+- LICENSE
+- purgecss.js
+- '*.config.js'
+- package*.json
+jekyll-archives:
+  enabled:
+  - categories
+  - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+user_custom_theme:
+  font_import_url: https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap
+  font_family_base: '''Noto Sans KR'', sans-serif'
+  main_bg: '#F0F8FF'
+  sidebar_bg: '#D9EBF7'
+  sidebar_text: '#FFFFFF'
+  active_color: '#287281'
+  card_bg: '#FFFFFF'
+repo_owner: ssafytest-beep
